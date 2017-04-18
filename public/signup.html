@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://www.gstatic.com/firebasejs/3.7.8/firebase.js"></script>
+		<title>Sign Up</title>  
+	
+</head>
+<body>
+
+
+	<div>
+	  <div class="container">
+		<label><b>Name</b></label>
+		<input type="text" placeholder="Enter Name" id="name" name="name" required>
+		
+		<label><b>Surname</b></label>
+		<input type="text" placeholder="Enter Surname" id="surname" name="surname" required>
+		
+		<label><b>Email</b></label>
+		<input type="email" placeholder="Enter Email" id="email" name="email" required>
+
+		<label><b>Password</b></label>
+		<input type="password" placeholder="Enter Password" id="password" name="psw" required>
+		<button type="submit" onclick="handleSignUp()">Sign Up</button>
+	  </div>
+	  <div class="container" style="background-color:#f1f1f1">
+		<button type="button" class="signupbtn" onclick="openSignIn()">Sign In</button>
+	  </div>
+
+	  
+	</div>
+
+
+	<script type="text/javascript" src="signup.js"></script>
+</body>
+</html>
